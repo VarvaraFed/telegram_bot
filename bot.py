@@ -4,13 +4,6 @@ from aiogram.types import Message
 import asyncio
 import openai
 
-# Токен вашего бота
-API_TOKEN = '8077391297:AAHTBMILgWL3clASOUdUBAcAcUA-v2DwemU'
-
-# Настройка OpenRouter API
-openai.api_key = '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'
-openai.api_base = "https://openrouter.ai/api/v1"
-
 # Инициализация бота и диспетчера
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher()
